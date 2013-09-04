@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = "activemdb"
-  s.version           = "0.2.2"
+  s.version           = "0.2.2.a"
   s.summary           = "ActiveRecordy wrapper around MDB Tools, allowing POSIX platforms to read MS Access (.mdb) files"
   s.description       = "ActiveRecordy wrapper around MDB Tools, allowing POSIX platforms to read MS Access (.mdb) files"
   s.author            = "Matthew King"
