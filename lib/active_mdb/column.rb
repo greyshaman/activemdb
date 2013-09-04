@@ -60,6 +60,12 @@ class Column
     end
   end
   
+  def binary_to_string(value)
+    if value.respond_to?(:force_encoding) && value.encoding != Encoding::ASCII_8BIT
+      value = value.force_encoding(Encoding::ASCII_8BIT)
+    end
+    value
+  end
   # Are you a Boolean?
   def boolean?
     self.type == 'Boolean'
